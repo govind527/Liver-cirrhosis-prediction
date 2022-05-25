@@ -16,7 +16,7 @@ Again, the challenges for this dataset are the null values which need to either 
 
 We can use the random forest classifier for this as well as the XGBoost Classifier for this model. A good practice is to train the data on both of these models and choose the model with the best scores. From xgboost, we can import XGBClassifier.
 
-#### Implementation:
+### Implementation:
 
 First, perform some data cleaning, check the outliers and null values. Outliers can be checked by calculating the z-score of the dataset and keeping a threshold value beyond which the data values will be considered outliers. Then do some Exploratory data analysis and visualizations to understand the data better. When splitting the data into training and test sets, use Stratified K-fold to ensure the target variable is equally balanced in all the test and training splits. It can be done by importing StratifiedKFold from sklearn.model_selection. Then train the data on both the models and choose the model based on the performance metrics like precision, recall, accuracy, etc. From sklearn.metrics, you can import classification_report, accuracy_score, precision_score, recall_score to check the performance metrics.
 

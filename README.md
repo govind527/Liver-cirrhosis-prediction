@@ -14,7 +14,7 @@ Again, the challenges for this dataset are the null values which need to either 
 
 ### Algorithm:
 
-We can use the random forest classifier for this as well as the XGBoost Classifier for this model. A good practice is to train the data on both of these models and choose the model with the best scores. From xgboost, we can import XGBClassifier.
+We can use the Random forest classifier for this as well as the XGBoost Classifier for this model. A good practice is to train the data on both of these models and choose the model with the best scores. From xgboost, we can import XGBClassifier.
 
 ### Implementation:
 

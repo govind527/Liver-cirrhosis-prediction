@@ -8,7 +8,7 @@ Liver cirrhosis is a widespread problem especially in North America due to high 
 ## Data set: 
 This data set is available on [Kaggle](https://www.kaggle.com/datasets/fedesoriano/cirrhosis-prediction-dataset/code?resource=download) which was collected from the Mayo Clinic trial.
 
-This data set has about 20 features. These features are related to the patient’s details like age, sex, etc. and patient’s blood tests like prothrombin, triglycerides, platelets levels, etc. All these factors help in understanding a patient’s chances of liver cirrhosis.
+This data set has about 20 features. These features are related to the patient’s details like age, sex, etc. and patient’s blood tests like prothrombin, triglycerides, platelets levels, etc. All these factors help in understanding a patient’s chances of liver Cirrhosis.
 
 Again, the challenges for this dataset are the null values which need to either be replaced or deleted. Also, this data set has unbalanced classes, so it might require up-sampling the dataset.
 
